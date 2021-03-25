@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800");
-@import url("/assets/css/fontawesome-all.min.css");
+@import url("assets/css/fontawesome-all.min.css");
 
 /*
 	ZeroFour by HTML5 UP
@@ -1835,7 +1835,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("/images/product-wrapper.jpg");
+		background: url("images/bg01.png"), url("images/product-wrapper.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 20em 0;
