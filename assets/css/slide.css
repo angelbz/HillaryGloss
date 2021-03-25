@@ -1,0 +1,190 @@
+@import url("https://fonts.google.com/icons?icon.query=money");
+@import url("https://fonts.google.com/specimen/Oswald?preview.text_type=custom");
+		
+		.swiper-slide{
+			width:280px !important;
+			 }
+		
+		.slider-box{
+			margin:20px;
+			height:450px;
+			width:295px;
+			position:relative;
+			background-color:#FFFFFF;
+			border-radius:8px;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			border:1px solid rgba(187,187,187,0.40);
+			z-index: 999;
+			
+			}
+		.textinfo{
+			margin:20px;
+			height:450px;
+			width:295px;
+			position:absolute;
+			background-color:rgb(246, 248, 122, 0.8);
+			border-radius:8px;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			border: 1px solid rgba(248, 160, 160, 0.884);
+			opacity: 0;
+			z-index: 5;
+			}
+		.textinfo:hover{
+			transform: translateY(0,350px);
+            -webkit-transform: translateY(0,350px);
+            -o-transform: translate(0,350px); 
+            -moz-transform: translate(0,350px);
+			opacity: 1;
+			z-index: 5;
+			}
+			.infoh2{
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+				box-sizing:border-box;
+				font-size:20px;
+				font-style: italic;
+				line-height:35px;
+				color: #000;
+				font-family: 'Oswald', sans-serif;
+			}	
+				.infoh3{
+					display:flex;
+					flex-direction:column;
+					align-items:center;
+					text-align: left;
+					box-sizing:border-box;
+					font-size:14px;
+					font-style: oblique;
+					line-height:35px;
+					color: black;
+					font-family: 'Oswald', sans-serif;
+				}	
+					.infop{
+						display:flex;
+						flex-direction:column;
+						align-items:center;
+						text-align: justify;
+						box-sizing:border-box;
+						font-size:18px;
+						left: 2rem;
+						font-style: normal;
+						line-height:22px;			
+						color:gray;
+						border-radius: 8px;
+						font-family: 'Oswald', sans-serif;
+					}	
+				}   
+			 
+		@media screen and (max-width: 736px){
+		.infoh2{
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			text-align: center;
+			box-sizing:border-box;
+			font-size:20px;
+			font-style: italic;
+			line-height:35px;
+			color: #000;
+			font-family: 'Oswald', sans-serif;
+		}	
+			.infoh3{
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+				text-align: center;
+				box-sizing:border-box;
+				font-size:6px;
+				font-style: oblique;
+				line-height:35px;
+			    color: black;
+				font-family: 'Oswald', sans-serif;
+			}	
+				.infop{
+					display:flex;
+					flex-direction:column;
+					align-items:center;
+					text-align: justify;
+					box-sizing:border-box;
+					font-size:18px;
+					left: 2rem;
+					font-style: normal;
+					line-height:22px;			
+			        color:gray;
+					border-radius: 8px;
+					font-family: 'Oswald', sans-serif;
+				}	
+			}   
+			
+
+		.slider-box a{
+			text-decoration:none;
+			text-align:center;}
+		.img-box{
+			height:170px;}
+		.img-box img{
+			height:auto;
+			max-width:100%;
+			max-height:100%;}
+		.time{
+			position:absolute;
+			top:0px;
+			right:20px;
+			color:#FCA4A6;}
+		.detail{
+	        display:flex;
+	        flex-direction:column;
+	        align-items:center;
+	        box-sizing:border-box;
+	        font-size:14px;
+			font-style: italic;
+	        line-height:35px;}
+		.price{
+			color: #000;;
+			line-height:20px;
+			border-radius:2px;}
+        .cart{
+			position:absolute;
+			bottom:0px;
+			height:45px;
+			background-color:#FCA4A6;
+			width:100%;
+			display:flex;
+			border-radius: 6px;
+			justify-content:center;
+			align-items:center;}
+			
+		.cart a{
+			color:#FFFFFF;}
+		.slider-box:hover{
+			box-shadow:2px 2px 12px rgba(47,47,47,0.40);}
+		.slider-box:hover .img-box img{
+			transform:scale(1.07);
+			transition:all ease 0.3s;}
+		 .cart:hover{
+			transform:scale(1.05);
+		    background-color:#FCA4A6;
+			border-radius:16px;
+            box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+            transition:all ease 0.1s;}				
+		.heading{
+			display:flex;
+			justify-content:center;}
+		.heading h1{
+			text-shadow:2px 2px 12px rgba(69,66,66,0.3);
+			padding:0px 10px;
+			color:#FFFFFF;
+			margin:20px;
+			font-size:30px;
+			font-family:calibri;}
+
+			

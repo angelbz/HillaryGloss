@@ -1,0 +1,137 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*===== VARIABLES CSS =====*/
+:root{
+    --header-height: 3rem;
+
+    /*===== Colors =====*/
+    --first-color: #FCA4A6;
+    --first-color-dark: #C1576A;
+    --first-color-darken: #A83E51;
+    --white-color: #FCF8F8;
+
+    /*===== Font and typography =====*/
+    --body-font: 'Poppins', sans-serif;
+    --big-font-size: 2.5rem;
+    --normal-font-size: .938rem;
+  
+    /*===== z index =====*/
+    --z-fixed: 100;
+}
+
+@media screen and (min-width: 768px){
+    :root{
+        --big-font-size: 5rem;
+        --normal-font-size: 1rem;
+    }
+}
+
+/*===== BASE =====*/
+
+
+
+
+
+
+/*===== LAYOUT =====*/
+.bd-grid{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.l-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: rgba(207, 53, 104, 0.575);
+}
+
+/*===== NAV =====*/
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__menu{
+        @media screen and (max-width: 768px){
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 70%;
+            height: 100%;
+            padding: 3.5rem 1.5rem 0;
+            background: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            transition: .5s;
+        }
+    }
+    &__close{
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    &__item{
+        margin-bottom: 2rem;
+    }
+
+    &__close, &__link, &__logo, &__toggle{
+        color: var(--white-color);
+    }
+    &__link{
+        &:hover{
+            color: var(--first-color-dark);
+        }
+    }
+    &__toggle{
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
+
+/*=== Show menu ===*/
+.show{
+    right: 0;
+}
+
+/*===== HOME =====*/
+
+
+/* ===== MEDIA QUERIES=====*/
+@media screen and(min-width: 768px){
+    
+
+    .nav{
+        height: calc(var(--header-height) + 1.5rem);
+
+        &__toggle,&__close{
+            display: none;
+        }
+        &__list{
+            display: flex;
+        }
+        &__item{
+            margin-left: 3rem;
+            margin-bottom: 0;
+        }
+    }
+
+    
+
+@media screen and(min-width: 1024px){
+    .bd-grid{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   
+}
