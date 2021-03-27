@@ -1871,7 +1871,7 @@ input, select, textarea {
 		.wrapper.style1 {
 			position: relative;
 			background-color: #f3c3e0;
-			background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
+			
 			background-repeat: no-repeat, no-repeat, repeat;
 			background-size: 100% 15em, 100% 15em, auto auto;
 			background-position: top center, bottom center, top left;
@@ -1882,7 +1882,7 @@ input, select, textarea {
 		.wrapper.style2 {
 			position: relative;
 			background-color: #fff;
-			background-image: url("images/bg03.png"), url("images/bg02.png");
+			
 			background-repeat: no-repeat, repeat;
 			background-size: 100% 15em, auto auto;
 			background-position: top center, top left;
@@ -1890,7 +1890,7 @@ input, select, textarea {
 		.wrapper.style3 {
 			position: relative;
 			background-color: rgba(255, 255, 255, 0.75);
-			background-image: url("images/bg03.png"), url("images/bg02.png");
+			
 			background-repeat: no-repeat, repeat;
 			background-size: 100% 15em, auto auto;
 			background-position: top center, top left;
@@ -1907,10 +1907,7 @@ input, select, textarea {
 	}
 
 		#header .inner {
-			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
+			
 			position: relative;
 			height: 5.5em;
 			background-color: #3B3E45;
