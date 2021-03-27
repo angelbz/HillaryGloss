@@ -187,8 +187,8 @@
 			font-size:30px;
 			font-family:calibri;}
 
-			.page-public-profile #myPlayer iframe {
-				min-height: 550px;
+			#myPlayer iframe {
+				min-height: 850px;
 			}
 			
 			iframe{
@@ -206,7 +206,7 @@
 				border-color: initial;
 				border-image: initial;
 			}
-			.page-public-profile #myPlayer {
+			 #myPlayer {
 				font-size: 0;
 				background: #4e5565;
 				min-height: 550px;
