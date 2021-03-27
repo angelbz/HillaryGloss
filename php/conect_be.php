@@ -1,5 +1,6 @@
 <?php
 
+
 $conect = mysqli_connect("localhost", "root", "angelmx2021", "login_register_bd");
 /*
 if($conect){
