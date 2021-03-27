@@ -1835,7 +1835,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/product-wrapper.jpg");
+		background: url("assets/product-wrapper.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 20em 0;
