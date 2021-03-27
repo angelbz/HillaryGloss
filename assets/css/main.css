@@ -1835,7 +1835,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("/images/product-wrapper.jpg");
+		background: url("images/product-wrapper.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 20em 0;
@@ -1848,10 +1848,7 @@ input, select, textarea {
 	}
 
 	#footer-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
+		
 		position: relative;
 		background-repeat: repeat-x, no-repeat, repeat;
 		background-size: 100% 100%, 100% 15em, auto auto;
