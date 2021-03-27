@@ -19,7 +19,7 @@
         echo '
         <script>
             alert("Este email ya esta registrado, intenta con otro email");
-            window.location = "../index.html";
+            window.location = "..index.html";
         </script>
         ';
         exit();
@@ -29,7 +29,7 @@
         echo '
         <script>
              alert("Este usuario ya esta registrado, intenta con otro usuario");
-             window.location = "../index.html";
+             window.location = "..index.html";
         </script>
         ';
          exit();
@@ -40,14 +40,14 @@
          echo '
          <script>
              alert("Usuario registrado exitosamente");
-             window.location = "../index.html";
+             window.location = "..index.html";
          </script>
          ';
      } else{
         echo '
         <script>
             alert("Usuario no registrado exitosamente");
-            window.location = "../index.html";
+            window.location = "..index.html";
         </script>
         ';
      }
