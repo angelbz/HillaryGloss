@@ -1949,6 +1949,7 @@ input, select, textarea {
 
 		#footer a {
 			color: #000;
+			text-decoration: dashed;
 		}
 
 		
