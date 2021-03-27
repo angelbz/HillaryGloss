@@ -1889,7 +1889,7 @@ input, select, textarea {
 		}
 		.wrapper.style3 {
 			position: relative;
-			background-color: rgba(8, 211, 226, 0.6);
+			background-color: white;
 			background-image: url("images/bg03.png"), url("images/bg02.png");
 			background-repeat: no-repeat, repeat;
 			background-size: 100% 15em, auto auto;
