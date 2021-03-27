@@ -54,7 +54,7 @@ a:link, a:visited, a:active {
   left: 0;
   z-index: var(--z-fixed);
   /*background-color: rgba(207, 53, 104, 0.575);*/
-  background-color: rgba(red, green, blue, alpha);
+  background-color: rgba(254, 200, 216, 0.6);
 }
 
 /*===== NAV =====*/
