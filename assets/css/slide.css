@@ -22,11 +22,11 @@
 			
 			}
 		.textinfo{
-			margin:20px;
-			height:450px;
+			margin:10px;
+			height:380px;
 			width:295px;
 			position:absolute;
-			background-color:rgb(246, 248, 122, 0.8);
+			background-color:rgba(248, 160, 160, 0.884);
 			border-radius:8px;
 			display:flex;
 			flex-direction:column;
@@ -54,6 +54,7 @@
 				font-style: italic;
 				line-height:35px;
 				color: #000;
+				top: 10%;
 				font-family: 'Oswald', sans-serif;
 			}	
 				.infoh3{
@@ -74,11 +75,11 @@
 						align-items:center;
 						text-align: justify;
 						box-sizing:border-box;
-						font-size:18px;
+						font-size:16px;
 						left: 2rem;
 						font-style: normal;
 						line-height:22px;			
-						color:gray;
+						color:black;
 						border-radius: 8px;
 						font-family: 'Oswald', sans-serif;
 					}	
@@ -91,7 +92,7 @@
 			align-items:center;
 			text-align: center;
 			box-sizing:border-box;
-			font-size:20px;
+			font-size:14px;
 			font-style: italic;
 			line-height:35px;
 			color: #000;
@@ -103,11 +104,11 @@
 				align-items:center;
 				text-align: center;
 				box-sizing:border-box;
-				font-size:6px;
-				font-style: oblique;
+				font-size:5px;
 				line-height:35px;
 			    color: black;
 				font-family: 'Oswald', sans-serif;
+				top: 30%;
 			}	
 				.infop{
 					display:flex;
@@ -115,11 +116,11 @@
 					align-items:center;
 					text-align: justify;
 					box-sizing:border-box;
-					font-size:18px;
+					font-size:12px;
 					left: 2rem;
 					font-style: normal;
 					line-height:22px;			
-			        color:gray;
+			        color:black;
 					border-radius: 8px;
 					font-family: 'Oswald', sans-serif;
 				}	
@@ -130,16 +131,21 @@
 			text-decoration:none;
 			text-align:center;}
 		.img-box{
-			height:170px;}
+			height:250px;}
 		.img-box img{
 			height:auto;
 			max-width:100%;
 			max-height:100%;}
+		.informacion{
+			position:absolute;
+			top:0px;
+			right:20px;
+			color:#FFFFFF;}
 		.time{
 			position:absolute;
 			top:0px;
 			right:20px;
-			color:#FCA4A6;}
+			color:rgba(248, 160, 160, 0.884);}
 		.detail{
 	        display:flex;
 	        flex-direction:column;
@@ -155,7 +161,7 @@
         .cart{
 			position:absolute;
 			bottom:0px;
-			height:45px;
+			height:35px;
 			background-color:#FCA4A6;
 			width:100%;
 			display:flex;
@@ -213,5 +219,25 @@
 				font-size: 0;
 				background: #4e5565;
 				min-height: 1550px;
+			}
+        
+		@media screen and (min-width:768px){
+			iframe{
+				height: 500px;
+				width: 900px;
+				position: relative;
+			}	
+		}
+		@media screen and (max-width: 980px){
+            iframe{
+				height: 500px;
+                width: 800px;
+			}
+		}
+		@media screen and (min-width: 1280px){
+			iframe{
+				height: 500px;
+				width: 1100px;
 				display: flex;
 			}
+		}
