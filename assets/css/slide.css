@@ -220,24 +220,4 @@
 				background: #4e5565;
 				min-height: 1550px;
 			}
-        
-		@media screen and (min-width:768px){
-			iframe{
-				height: 500px;
-				width: 400px;
-				position: relative;
-			}	
-		}
-		@media screen and (max-width: 980px){
-            iframe{
-				height: 500px;
-                width: 800px;
-			}
-		}
-		@media screen and (min-width: 1280px){
-			iframe{
-				height: 500px;
-				width: 1100px;
-				display: flex;
-			}
-		}
+      
