@@ -3,7 +3,7 @@
 	<head>
 		<title>HGWeb</title>
 		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale:1.0" />
 		<link rel="stylesheet" href="assets/css/main.css"/>
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 		<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -44,93 +44,9 @@
 										<li class="nav__item"><a href="#info"class="nav__link"class="ocultar-visualmente2">informacion</a></li>
 										<li class="nav__item"><a href="#notrosotros" class="nav__link"class="ocultar-visualmente2">Nosotros</a></li>
 										<li class="nav__item"><a href="#contacto" class="nav__link"class="ocultar-visualmente2">Contacto</a></li>
+										<li class="nav__item"><a href="productos.html" class="nav__link" class="ocultar-visualmente2">Productos</a></li>
 					
-<!--Register-->										
-										<div class="center">
-											<input type="checkbox" id="show">
-											<label for="show" class="show-btn"><img src="images/login.png" style="width: 43px; height: 43px;"> </img></label>
-											<!--Register-->
-											<div class="wrapper-login">
-												<label for="show" class="close-btn fas fa-times" title="close"></label>
-												<div class="title-text">
-												  <div class="title login">
-										  Iniciar sesión</div>
-										  <div class="title signup">
-										  Registrarse</div>
-										  </div>
-										  <div class="form-container">
-												  <div class="slide-controls">
-													<input type="radio" name="slide" id="login" checked>
-													<input type="radio" name="slide" id="signup">
-													<label for="login" class="slide login">Entrar</label>
-													<label for="signup" class="slide signup">Registrarse</label>
-													<div class="slider-tab">
-										  </div>
-										  </div>
-										  <div class="form-inner">
-
-									<form action="php/login_user_be.php" method="POST" class="login">
-													  <div class="field">
-														<input for="user" type="text" name="user" placeholder="Usuario" required>
-													  </div>
-										  <div class="field">
-														<input for="pwd" type="password" name="pwd"  placeholder="Contraseña" required>
-													  </div>
-										  <div class="pass-link">
-										  <a href="#">Olvidaste tu contraseña?</a></div>
-										  <div class="field btn">
-														<div class="btn-layer">
-										  </div>
-										  <input type="submit" value="Entrar">
-													  </div>
-										  <div class="signup-link">
-										  No eres Miembro? <a href="">Registrate!</a></div>
-										  </form>
-
-									<form action="php/registro_user_be.php" method="POST" class="signup">
-													  <div class="field">
-														<input for="user" type="text" name="user" placeholder="Usuario" required>
-													  </div>
-										  <div class="field">
-														<input for="pwd" type="password" name="pwd" placeholder="Contraseña" required>
-													  </div>
-										  <div class="field">
-														<input for="email" type="email" name="email" placeholder="Email" required>
-													  </div>
-										  <div class="field btn">
-														<div class="btn-layer">
-										  </div>
-										  <input type="submit" value="Enviar">
-													  </div>
-										  </form>
-
-										  
-										  
-
-										  </div>
-										  </div>
-										  </div>
-										  <script>
-												const loginText = document.querySelector(".title-text .login");
-												const loginForm = document.querySelector("form.login");
-												const loginBtn = document.querySelector("label.login");
-												const signupBtn = document.querySelector("label.signup");
-												const signupLink = document.querySelector("form .signup-link a");
-												signupBtn.onclick = (()=>{
-												  loginForm.style.marginLeft = "-50%";
-												  loginText.style.marginLeft = "-50%";
-												});
-												loginBtn.onclick = (()=>{
-												  loginForm.style.marginLeft = "0%";
-												  loginText.style.marginLeft = "0%";
-												});
-												signupLink.onclick = (()=>{
-												  signupBtn.click();
-												  return false;
-												});
-											  </script>
-										</div>
-<!--Login-->
+						
 										
 
 												
