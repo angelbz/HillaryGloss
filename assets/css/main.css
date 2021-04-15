@@ -476,6 +476,7 @@ input, select, textarea {
 		}
 
 			.row > * {
+				padding-top: 10%;
 				padding: 40% 0 0 30px;
 			}
 
