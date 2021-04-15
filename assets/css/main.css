@@ -1210,7 +1210,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 10px 0 0 60px;
+						padding:  0 0 60px;
 					}
 
 					.row.gtr-uniform {
@@ -2232,6 +2232,8 @@ input, select, textarea {
 				margin-top: 0;
 				padding: 3em 0 1em 0;
 			}
+
+			
 
 .contact{
 
