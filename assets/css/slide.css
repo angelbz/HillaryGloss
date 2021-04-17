@@ -213,16 +213,16 @@
 
 	  @media screen and (max-width: 1280px) {
 		  iframe{
-			  top:10% ;
+			  top:15%;
 		  }
 	  }
 	  @media screen and (max-width: 980px) {
 		iframe{
-			top:10% ;
+			top:12%;
 		}
 	  }
 	  @media screen and (max-width: 736px) {
 		iframe{
-			top:10% ;
+			top:8%;
 		}
 	  }
